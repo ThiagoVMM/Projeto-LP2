@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="796.0" prefWidth="595.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="20.0" prefWidth="594.0" text="Como Jogar Batalha Naval">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label text="Objetivo do Jogo:">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label prefHeight="17.0" prefWidth="604.0" text="O objetivo do jogo Batalha Naval é destruir todos os navios do oponente antes que ele destrua os seus." wrapText="true">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </Label>
+      <Label text="Regras:">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label text="1. Tabuleiros:" underline="true">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="Cada jogador possui dois tabuleiros de 10x10 células.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="Um tabuleiro é usado para posicionar seus próprios navios.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="O outro tabuleiro é onde você tenta acertar os navios do seu oponente.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="2. Navios:" underline="true">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="Cada jogador possui quatro navios de diferentes tamanhos:">
+         <VBox.margin>
+            <Insets left="45.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="1x2 (Corveta)">
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </Label>
+      <Label text="1x3 (Submarino)">
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </Label>
+      <Label text="1x4 (Fragata)">
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </Label>
+      <Label text="1x5 (Destroyer)">
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </Label>
+      <Label text="Os navios podem ser posicionados horizontalmente ou verticalmente, sem sobreposição entre eles." wrapText="true">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="3. Posicionamento:" underline="true">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="Você posiciona seus navios clicando nas células do seu tabuleiro.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="Clique para selecionar um navio e, em seguida, clique em outra célula para posicioná-lo.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="Botão direito do mouse rotaciona o navio.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="4. Atirando:" underline="true">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="Para atirar, selecione uma célula do tabuleiro do seu oponente e clique no botão &quot;ATIRAR&quot;">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="O computador também atira aleatoriamente no seu tabuleiro quando você erra um tiro.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="5. Vitória:" underline="true">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="O jogo continua até que todos os navios de um jogador sejam destruídos.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="O primeiro jogador a destruir todos os navios do oponente vence.">
+         <padding>
+            <Insets left="45.0" />
+         </padding>
+      </Label>
+      <Label text="Controles:">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label text="Novo Jogo: Reinicia o jogo, permitindo que você posicione seus navios novamente.">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+      <Label text="Sair: Fecha o jogo.">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </Label>
+   </children>
+   <padding>
+      <Insets top="15.0" />
+   </padding>
+</VBox>
